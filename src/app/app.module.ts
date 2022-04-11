@@ -10,6 +10,8 @@ import { RegisterComponent } from './components/register/register.component';
 import { LoginComponent } from './components/login/login.component';
 import { ChatComponent } from './components/chat/chat.component';
 import { PostComponent } from './components/post/post.component';
+import { AboutComponent } from './components/about/about.component';
+import { ServicesComponent } from './components/services/services.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { PostComponent } from './components/post/post.component';
     RegisterComponent,
     LoginComponent,
     ChatComponent,
-    PostComponent
+    PostComponent,
+    AboutComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
